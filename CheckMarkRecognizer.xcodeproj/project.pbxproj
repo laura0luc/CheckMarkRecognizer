@@ -14,6 +14,8 @@
 		8D045B681BD94BEA007686B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D045B661BD94BEA007686B8 /* LaunchScreen.storyboard */; };
 		8D045B731BD94BEB007686B8 /* CheckMarkRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D045B721BD94BEB007686B8 /* CheckMarkRecognizerTests.swift */; };
 		8D045B7E1BD94BEB007686B8 /* CheckMarkRecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D045B7D1BD94BEB007686B8 /* CheckMarkRecognizerUITests.swift */; };
+		8D045B8C1BD94C2A007686B8 /* CGPointUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D045B8B1BD94C2A007686B8 /* CGPointUtils.swift */; settings = {ASSET_TAGS = (); }; };
+		8D045B8E1BD94C8A007686B8 /* CheckMarkRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D045B8D1BD94C8A007686B8 /* CheckMarkRecognizer.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8D045B791BD94BEB007686B8 /* CheckMarkRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMarkRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D045B7D1BD94BEB007686B8 /* CheckMarkRecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMarkRecognizerUITests.swift; sourceTree = "<group>"; };
 		8D045B7F1BD94BEB007686B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D045B8B1BD94C2A007686B8 /* CGPointUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointUtils.swift; sourceTree = "<group>"; };
+		8D045B8D1BD94C8A007686B8 /* CheckMarkRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckMarkRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		8D045B5C1BD94BEA007686B8 /* CheckMarkRecognizer */ = {
 			isa = PBXGroup;
 			children = (
+				8D045B8B1BD94C2A007686B8 /* CGPointUtils.swift */,
 				8D045B5D1BD94BEA007686B8 /* AppDelegate.swift */,
 				8D045B5F1BD94BEA007686B8 /* ViewController.swift */,
 				8D045B611BD94BEA007686B8 /* Main.storyboard */,
 				8D045B641BD94BEA007686B8 /* Assets.xcassets */,
 				8D045B661BD94BEA007686B8 /* LaunchScreen.storyboard */,
 				8D045B691BD94BEA007686B8 /* Info.plist */,
+				8D045B8D1BD94C8A007686B8 /* CheckMarkRecognizer.swift */,
 			);
 			path = CheckMarkRecognizer;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D045B601BD94BEA007686B8 /* ViewController.swift in Sources */,
+				8D045B8E1BD94C8A007686B8 /* CheckMarkRecognizer.swift in Sources */,
 				8D045B5E1BD94BEA007686B8 /* AppDelegate.swift in Sources */,
+				8D045B8C1BD94C2A007686B8 /* CGPointUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
